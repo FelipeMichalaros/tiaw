@@ -1,0 +1,143 @@
+/* 
+paleta
+#425F57
+#749F82
+#3A8E89
+#CFFF8D
+*/
+
+body {
+    margin: 0px;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::selection {
+    background-color: #CFFF8D;
+}
+
+.tela {
+    background-color: #749F82;
+    margin: 0px;
+    border: 0px;
+    min-height: 100vh;
+
+}
+
+.header {
+    background-color: #CFFF8D;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+}
+
+.head-item {
+    margin: 10px;
+    margin-right: 30px;
+    font-size: 40px;
+}
+
+.navigation {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #425F57;
+    display: block;
+    height: 90vh;
+}
+
+.card {
+    display: block;
+    background-color: #88bb99;
+    width: 28%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: fit-content;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: 2rem;
+    height: fit-content;
+    background-color: #CFFF8D;
+    border: none;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.label {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    display: block;
+}
+
+.data-input {
+    padding-top: 1rem;
+    text-align: center;
+    border: none;
+    background-color: #88bb99;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: large;
+}
+
+.data-input:focus {
+    outline: none;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 90%;
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.confirmar {
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.login{
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+
+ .opcao{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+ }
+
+ .user-input{
+    width: 20%;
+    outline: none;
+    background-color: #88bb99;
+    border-radius: 1rem;
+    text-align: center;
+    height: 2.5rem;
+    font-size: large;
+ }
+
+ .padd{
+    padding: .6rem;
+ }

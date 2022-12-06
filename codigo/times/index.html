@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../app.js" async></script>
+    <script src="time.js" async></script>
+    <title>SportMatch</title>
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <div class="head-item" onclick="paginaLogin()">Sport Match</div>
+            <div class="navigation" onclick="paginaPartidas()">Partidas</div>
+            <div class="navigation" onclick="paginaTimes()">Times</div>
+            <div class="navigation" onclick="paginaLugares()">Lugares</div>
+            <div class="navigation" onclick="paginaCadastroLugares()">Cadastro de Lugares</div>
+        </div>
+        <div class="content">
+            <div class="card-list">
+                <div class="card">
+                    <div class="label">Nome do time</div>
+                    <input type="text" id="inputName" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Esporte</div>
+                    <select id="inputSportId" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Futebol</option>
+                        <option value="2">Beach Tennis</option>
+                        <option value="3">Vôlei</option>
+                        <option value="4">Fusal</option>
+                        <option value="5">Basquete</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 1</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 2</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 3</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 4</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+            </div>
+            <div class="confirmar">
+                <button onclick="salvarTime()" class="padd">Cadastrar</button>
+            </div>
+            <div id="cardList" class="card-list">
+            </div>
+        </div>
+    </div>
+</body>
